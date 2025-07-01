@@ -306,8 +306,6 @@ numbers = [
 [{'value': 10}, {'value': 7}]
 ```
 
-**💡 Ko‘rsatma**: `filter()` + `lambda x: x['value'] > 0`
-
 ---
 
 ### ✅ 18. **Sonlarni kvadratga oshirish (`map` + list\[dict])**
@@ -330,8 +328,6 @@ numbers = [
 [{'value': 4}, {'value': 9}, {'value': 16}]
 ```
 
-**💡 Ko‘rsatma**: `map()` + `lambda x: {'value': x['value']**2}`
-
 ---
 
 ### ✅ 19. **Eng uzun ismni topish (`max` + list\[str])**
@@ -349,8 +345,6 @@ names = ['Ali', 'Diyor', 'Jasurbek', 'Muhammad']
 ```python
 Muhammad
 ```
-
-**💡 Ko‘rsatma**: `max(names, key=len)`
 
 ---
 
@@ -374,5 +368,3 @@ students = [
 ```python
 Ali
 ```
-
-**💡 Ko‘rsatma**: `min()` + `key=lambda student: len(student['name'])`
