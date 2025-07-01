@@ -1,6 +1,4 @@
-Albatta, quyida har bir topshiriqni o‘quvchiga tushunarli, aniq ko‘rsatmalar bilan yozilgan holatga keltirib berdim. Har bir topshiriqda **vazifa tavsifi**, **kirish**, **chiqish**, va **talab qilingan funksiyalar** ko‘rsatilgan.
-
----
+# Exam02 - Lessons[13-24]
 
 ### ✅ 1. **Calculator (Kalkulyator)**
 
