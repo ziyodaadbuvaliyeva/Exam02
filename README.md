@@ -101,7 +101,7 @@ def calculate_net_salary(salary): ...
 ### ✅ 6. **Baholar tizimi**
 
 **🧠 Vazifa**: Talabalar ro‘yxati `dict` tarzida berilgan. O‘rtacha bahoni hisoblang.
-4.5 dan yuqori baho olgan talabalarni chiqarish kerak.
+o'rtacha balldan yuqori baho olgan talabalarni chiqarish kerak.
 
 **➡️ Kirish**:
 
@@ -112,7 +112,7 @@ students = {'Ali': 5, 'Vali': 4, 'Hasan': 5, 'Husan': 3}
 **⬅️ Chiqish**:
 
 * O‘rtacha baho: 4.25
-* 4.5 dan yuqorilar: `Ali, Hasan`
+* 4.25 dan yuqorilar: `Ali, Hasan`
 
 ---
 
@@ -130,9 +130,11 @@ cart = {
 }
 ```
 
+* Tushuntirish: `3000*2 + 8000*1 + 5000*5 = 37000`
+
 **⬅️ Chiqish**:
 
-* Umumiy summa: `3000*2 + 8000*1 + 5000*5 = 37000`
+* `Umumiy summa: 37000`
 
 ---
 
