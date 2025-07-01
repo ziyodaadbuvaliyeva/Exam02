@@ -179,84 +179,68 @@ Eng katta son: 22
 
 ---
 
-### ✅ 11. **Ismlar soni (`Input/students.txt`)**
 
-**🧠 Vazifa**: `students.txt` faylida nechta ism borligini sanang va `Output/output11.txt` fayliga yozing.
+### ✅ 11. **Ismlar soni (`Input/students.json`)**
+
+**🧠 Vazifa**: `students.json` faylidagi o‘quvchilar sonini hisoblang va natijani `Output/output11.json` fayliga yozing.
 
 **⬅️ Output (misol)**:
 
-```
-Ismlar soni: 20
+```json
+{
+  "count": 20
+}
 ```
 
 ---
 
-### ✅ 12. **Ismlarni alfavit bo‘yicha tartiblash**
+### ✅ 12. **Ismlarni alfavit bo‘yicha tartiblash (`Input/students.json`)**
 
-**🧠 Vazifa**: `students.txt` faylidagi ismlarni alfavit bo‘yicha tartiblang va `Output/output12.txt` fayliga yozing.
+**🧠 Vazifa**: `students.json` faylidagi barcha `name` maydonlarini alfavit bo‘yicha tartiblang va `Output/output12.json` fayliga yozing.
 
 **⬅️ Output (misol)**:
 
-```
-Abdukarim
-Abdulaziz
-Ali
-Alisher
-Anvar
-Aziza
-Aziz
-Diyor
-Jasurbek
-Kamola
-Lola
-Madina
-Muhammad
-Olim
-Ravshan
-Rustam
-Sardor
-Sherzod
-Umida
-Ziyoda
+```json
+{
+  "sorted_names": [
+    "Abdukarim", "Abdulaziz", "Ali", "Alisher", "Anvar", "Aziza", "Aziz",
+    "Diyor", "Jasurbek", "Kamola", "Lola", "Madina", "Muhammad", "Olim",
+    "Ravshan", "Rustam", "Sardor", "Sherzod", "Umida", "Ziyoda"
+  ]
+}
 ```
 
 ---
 
-### ✅ 13. **Uzun ismlar**
+### ✅ 13. **Uzun ismlar (`Input/students.json`)**
 
-**🧠 Vazifa**: Ismi 5 harfdan uzun bo‘lganlarni aniqlang va `Output/output13.txt` fayliga yozing.
+**🧠 Vazifa**: `name` uzunligi 5 harfdan oshadigan o‘quvchilarni aniqlang va `Output/output13.json` fayliga yozing.
 
 **⬅️ Output (misol)**:
 
-```
-Jasurbek
-Muhammad
-Abdulaziz
-Sherzod
-Alisher
-Kamola
-Rustam
-Ravshan
-Abdukarim
-Ziyoda
+```json
+{
+  "long_names": [
+    "Jasurbek", "Muhammad", "Abdulaziz", "Sherzod", "Alisher",
+    "Kamola", "Rustam", "Ravshan", "Abdukarim", "Ziyoda"
+  ]
+}
 ```
 
 ---
 
-### ✅ 14. **“A” bilan boshlanuvchilarni ajratish**
+### ✅ 14. **“A” bilan boshlanuvchilarni ajratish (`Input/students.json`)**
 
-**🧠 Vazifa**: Ismi `A` bilan boshlanuvchi o‘quvchilarni `Output/output14.txt` fayliga yozing.
+**🧠 Vazifa**: `name` qiymati "A" harfi bilan boshlanuvchi o‘quvchilarni toping va `Output/output14.json` fayliga yozing.
 
 **⬅️ Output (misol)**:
 
-```
-Ali
-Abdulaziz
-Anvar
-Alisher
-Abdukarim
-Aziza
-Aziz
+```json
+{
+  "a_names": [
+    "Ali", "Abdulaziz", "Anvar", "Alisher", "Abdukarim", "Aziza", "Aziz"
+  ]
+}
 ```
 
 ---
